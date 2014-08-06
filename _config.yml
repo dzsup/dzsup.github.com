@@ -9,7 +9,6 @@ safe: false
 title: DZSUP支持小组
 subTitle: 提供专业的Discuz技术咨询服务。
 description: DZSUP为Discuz站长提供专业的Discuz咨询服务。
-url: http://127.0.0.1:4000
 feed: /atom.xml
 
 #菜单配置
