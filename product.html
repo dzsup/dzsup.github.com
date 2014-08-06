@@ -1,0 +1,21 @@
+---
+layout: default
+title: 产品
+description: DZSUP支持小组做的Discuz产品。
+keywords: php, discuz, 社区动力, 插件开发, php开发, 微社区, dzsup, 技术支持, 咨询, 二次开发, 移动开发,微信开发,公众账号
+---
+<article class="main-article main-article-page">
+    <div class="violet-title">
+        <h3 class="violet-title-item">Discuz插件</h3>
+    </div>
+    {% for post in site.categories.plugin %}
+    <div class="violet-post">
+        <div class="main-article-contant">
+            <article class="violet-work fn-clear">
+                <h3>{{post.title}}</h3>
+                <p class="v-date">版本:{{post.ver}} <a href="{{post.url}}" target:"_blank">查看</a></p>
+            </article>
+        </div>
+    </div>
+    {% endfor %}
+</article>

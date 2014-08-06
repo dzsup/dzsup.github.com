@@ -1,5 +1,64 @@
-# General Jekyll Config
+markdown: rdiscount
+# warning pygments: true
 highlighter: pygments
-url: http://example.com
-lsi: false
-exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
+paginate: 8
+
+safe: false
+
+#站点基础配置
+title: DZSUP支持小组
+subTitle: 提供专业的Discuz技术咨询服务。
+description: DZSUP为Discuz站长提供专业的Discuz咨询服务。
+url: http://127.0.0.1:4000
+feed: /atom.xml
+
+#菜单配置
+nav:
+  - text: 首页
+    url: /index.html
+  - text: 文档
+    url: /archives.html
+  - text: 产品
+    url: /product.html
+  - text: 微社区产品
+    url: /wsq.html
+
+#theme config
+themes: /themes/violet
+
+#配置你喜欢的顶部背景图片
+headimg:
+  - item: /themes/violet/images/hdbg02.png
+
+#关注我
+follow:
+#  - class: fa-google-plus
+#    url: http://www.zhanxin.info
+#  - class: fa-facebook
+#    url: http://www.zhanxin.info
+  - class: fa-github
+    url: http://github.com/dzsup
+#  - class: fa-weibo
+#    url: http://weibo.com/pizner
+#  - class: fa-renren
+#    url: http://www.zhanxin.info
+#  - class: fa-pinterest
+#    url: http://www.zhanxin.info
+#  - class: fa-twitter
+#    url: http://www.zhanxin.info
+#  - class: fa-rss
+#    url: http://www.zhanxin.info
+
+#作者信息
+author:
+  link: http://rikioy.github.com
+  img: http://tp2.sinaimg.cn/1832671293/180/40020872447/1
+
+#评论信息
+disqus:
+  config: false
+  id: dzsup
+
+duoshuo:
+  config: true
+  id: dzsup
