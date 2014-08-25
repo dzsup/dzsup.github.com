@@ -22,6 +22,11 @@
     </url>
     
     <url>
+        <loc>/plugin/2014/08/25/dzsup-quiz.html</loc>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
         <loc>/plugin/2014/08/05/dzsup-userlog.html</loc>
         <priority>0.8</priority>
     </url>
